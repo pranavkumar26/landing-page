@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background: black;
+}
+
+header {
+    background-color: #081b29;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    font-size: 28px;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image:url(./img6.jpg);
+    background-size: auto;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+    box-shadow: #ff5733;
+}
+
+.hero button:hover {
+    background-color: #c13b1a;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#top, #about, #destinations, #services, #contact {
+    background-color: rgb(10, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#about{
+    background-color: #081b29;
+}
+#about p{
+    color: white;
+}
+#destinations{
+    background-color: #081b29;
+}
+#destinations .destination-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.section h2{
+    margin: auto;
+    font-size: 50px;
+    color: white;
+}
+
+
+.destination-card {
+    background-color:cyan;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+}
+.destination-card:hover {
+    box-shadow: 0 0 10px cyan, 0 0 25px cyan, 0 0 0 cyan, 0 0 0 cyan,
+    0 0 0 cyan;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.destination-card h3 {
+    margin: 15px 0;
+    font-size: 22px;
+}
+
+
+#services{
+    background-color: #081b29;
+}
+.service-card {
+    background-color: cyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.service-card:hover {
+    box-shadow: 0 0 10px cyan, 0 0 25px cyan, 0 0 0 cyan, 0 0 0 cyan,
+    0 0 0 cyan;
+}
+
+
+#contact{
+    background-color: #081b29;
+}
+#contact p{
+    color: white;
+}
+#contact form input, #contact form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: cyan;
+    color: blk;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color:rgba(15, 186, 238, 0.647);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #081b29;
+    color: white;
+}
